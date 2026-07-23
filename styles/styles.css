@@ -1,5 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
-    --primary-color: darkblue;
+    --primary-color: lightblue;
     --text-light: white;
     --text-dark: #333;
     --light-background: #eee;
@@ -45,6 +51,7 @@ aside {
     background-color: var(--light-background);
     color: var(--text-dark);
     text-align: center;
+    position: relative;
 
 }
 
@@ -53,16 +60,37 @@ aside img {
     height: var(--auto-height)
 }
 
+aside h2 {
+    position: absolute;
+    top: 65px;
+    left: 135px;
+}
+
 main img {
     width: 150px;
     height: var(--auto-height);
     border: var(--thin-border);
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
+    margin: 0 0 1rem 1rem;
 }
 
 footer {
     margin-top: 15px;
     border-top: var(--thin-border);
     text-align: center;
+}
+
+/* Class Sectors */
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+}
+
+.indent {
+    padding-left: 2rem;
 }
