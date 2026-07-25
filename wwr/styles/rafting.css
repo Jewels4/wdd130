@@ -6,17 +6,11 @@
 
 :root {
     --primary-color: lightblue;
-    --secondary-color: #f4a261;
     --text-light: white;
-    --heading-font: "Times New Roman", "Gerogia", serif;
-    --body-font: Arial, Helvetica, san-serif;
-    --text-dark: #333;
-    --light-background: #eee;
+    --heading-font: "Times New Roman", "Georgia", serif;
+    --body-font: Arial, Helvetica, sans-serif;
     --standard-padding: 1rem;
     --small-padding: 10px;
-    --border-color: black;
-    --thin-border: 1px solid black;
-    --auto-height: auto;
     --accent1-color: #264653;
 }
 
