@@ -42,6 +42,14 @@ header {
     height: auto;
 }
 
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 1rem;
+}
+
 .hero article img {
     float: right;
     width: 125px;
@@ -58,7 +66,7 @@ h2 {
     color: var(--primary-color);
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
