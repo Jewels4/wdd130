@@ -9,7 +9,6 @@
     --text-light: white;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
-    --standard-padding: 1rem;
     --small-padding: 10px;
     --accent1-color: #264653;
 }
@@ -68,7 +67,7 @@ h2 {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: #fff;
+    color: var(--text-light);
 }
 
 nav,
@@ -76,7 +75,7 @@ p,
 section,
 article {
     margin: 16px;
-    padding: 8px
+    padding: 8px;
 }
 
 nav {
