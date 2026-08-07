@@ -29,14 +29,14 @@
                 <p>123 Main River Street</p>
                 <p>Kolob, California</p>
                 <p>Phone:+1 999-999-9999</p>
-                <p>Email: <a href="mailto:">info@whitewater.com</a></p>
+                <p>Email: <a href="mailto:info@whitewater.com">info@whitewater.com</a></p>
             </div>
 
             <section class="contact-grid">
                 <div class="map">
                     <iframe
                       src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6867.962339124306!2d-120.46695437525891!3d47.52408597601596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1786061936917!5m2!1sen!2sus"
-                      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                      width="600" height="450" allowfullscreen loading="lazy"
                       referrerpolicy="strict-origin-when-cross-origin"></iframe>
                 </div>
 
@@ -53,16 +53,18 @@
                     <div class="form-item">
                         <label class="main-label">Message Purpose</label>
                         <fieldset class="radio-stack">
-                            <label><input type="radio" name="purpose" value="general"
+                            <label><input type="radio" id="general" name="purpose" value="general"
                                   checked>General
                                 Inquiry
                             </label>
                             <label>
-                                <input type="radio" name="purpose" value="general" checked>
+                                <input type="radio" id="reservation" name="purpose" value="general"
+                                  checked>
                                 Reservation Question
                             </label>
                             <label>
-                                <input type="radio" name="purpose" value="general" checked>
+                                <input type="radio" id="suggestion" name="purpose" value="general"
+                                  checked>
                                 Website Suggestion
                             </label>
                         </fieldset>
@@ -71,12 +73,13 @@
                     <div>
                         <label for="feedback" class="textarea-label">
                             Message
+                        </label>
                     </div>
                     <textarea id="feedback" name="feedback" rows="4"
                       placeholder="Type here"></textarea>
                     <div>
                         <input type="checkbox" id="subscribe" name="subscribe">
-                        <label for="pet">Please Subscribe me to the monthly newsletter</label>
+                        <label for="subscribe">Please Subscribe me to the monthly newsletter</label>
                     </div>
                     <div>
                         <button type="submit">Get in Touch!</button>
@@ -101,7 +104,7 @@
                 </figure>
 
                 <figure>
-                    <img src="images/John.jpeg" alt="John Doe">
+                    <img src="images/john.jpeg" alt="John Doe">
                     <figcaption> John Doe</figcaption>
                     <figcaption>Whitewater River Guide</figcaption>
                 </figure>

@@ -218,7 +218,6 @@ input,
 textarea,
 button {
     padding: 10px;
-    font-size: var(--body-font);
     font-size: 1rem;
 }
 
