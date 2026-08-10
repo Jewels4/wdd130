@@ -360,11 +360,13 @@ button:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    background-color: var(--accent1-color);
+    padding: 15px;
 }
 
 .home-hero .now {
     position: absolute;
-    top: 60px;
+    top: 75px;
     left: 50%;
     transform: translateX(-50%);
 }
